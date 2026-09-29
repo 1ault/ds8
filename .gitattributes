@@ -1,0 +1,27 @@
+# ---------------------------------------------------------------------------
+# Normalizacion de finales de linea
+# Git detecta solo si el archivo es texto y normaliza a LF dentro del repo.
+# Al hacer checkout en Windows, git convierte de vuelta a CRLF.
+# ---------------------------------------------------------------------------
+* text=auto
+
+# ---------------------------------------------------------------------------
+# Codigo y documentacion: siempre LF en el repositorio
+# ---------------------------------------------------------------------------
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+
+# ---------------------------------------------------------------------------
+# Binarios: git no debe analizarlos ni convertirlos.
+# Los PDF se corrompen si git les cambia los finales de linea.
+# ---------------------------------------------------------------------------
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.zip binary
+*.7z binary
+*.docx binary
+*.xlsx binary
