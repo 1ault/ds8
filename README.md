@@ -42,8 +42,3 @@ python Parcial.py --modo manual
 ## Integrantes y grupo
 
 - Grupo 1: 
-- Integrantes:
-  - Abdias Ruedas 8-1011-2210 
-  - Jose Sanchez 8-1032-2111
-  - Miguel Martinez 8-960-778
-  - Whitney Ault 8-984-1977
